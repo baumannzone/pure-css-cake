@@ -17,6 +17,31 @@ export default {
 
 <style lang="stylus">
 .birthday-cake
+  .cake
+    position relative
+    width 400px
+    height 180px
+    margin 0 auto
+    border-top-left-radius 40px
+    border-top-right-radius 40px
+    background-color antiquewhite
+
+    &:after,
+    &:before
+      content ''
+      position absolute
+      width 400px
+      height 20px
+      background-color #795548
+      bottom 0
+
+    &:after
+      margin-bottom 30px
+
+    &:before
+      margin-bottom 70px
+
+
   .base
     .base-1
       width 450px
