@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!--    <img alt="Vue logo" src="./assets/logo.png" />-->
     <CssCake />
   </div>
 </template>
@@ -18,7 +17,7 @@ export default {
 
 <style lang="stylus">
 body
-  background-color #946def
+  background-color #a8ecc1
 
 #app
   display flex
@@ -26,5 +25,5 @@ body
   font-family Avenir, Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  margin-top 60px
+  margin-top 20px
 </style>
