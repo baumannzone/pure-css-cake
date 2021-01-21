@@ -1,12 +1,10 @@
-import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/CssCake.vue";
+import { mount } from "@vue/test-utils";
+import App from "@/App.vue";
+import CssCake from "@/components/CssCake.vue";
 
-describe("HelloWorld.vue", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
-    });
-    expect(wrapper.text()).toMatch(msg);
+describe("App.vue", () => {
+  it("render Cake component", () => {
+    const wrapper = mount(App, {});
+    expect(wrapper.getComponent(CssCake));
   });
 });
