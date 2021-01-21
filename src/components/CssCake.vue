@@ -17,6 +17,10 @@
         <div class="base-3"></div>
       </div>
     </div>
+    <p>
+      <a href="https://twitter.com/baumannzone">Baumannzone</a> ·
+      <a href="https://github.com/baumannzone/pure-css-cake">GitHub</a>
+    </p>
   </div>
 </template>
 
@@ -40,6 +44,13 @@ candle-color = #9e9e9e
 h1
   text-align center
   margin-bottom 100px
+
+p
+  margin-top 100px
+  text-align center
+
+  a
+    color chocolate-color
 
 .birthday-cake
   margin-top 50px
