@@ -7,6 +7,7 @@
           <div class="inner-fire"></div>
         </div>
       </div>
+      <div class="extra"></div>
       <div class="cake">
         <div class="top"></div>
       </div>
@@ -83,6 +84,13 @@ h1
       border-bottom-left-radius 30px
       border-bottom-right-radius 30px
 
+  .extra
+    margin 0 auto
+    background-color chocolate-color
+    width 220px
+    height 50px
+    border-top-left-radius 30px
+    border-top-right-radius 30px
 
   .cake
     position relative
