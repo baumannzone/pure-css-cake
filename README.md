@@ -1,4 +1,13 @@
-# pure-css-cake
+# 🎉 Pure CSS Cake 🎂
+
+> For my birthday, I have created this delicious, zero calories, gluten-free, vegan, eco-friendly and awesome **CSS** cake. I hope you enjoy it 🎉
+
+![Pure CSS Cake](./src/assets/cake.png)
+
+## Live Demo
+🍰 https://pure-css-cake.vercel.app/ 🍰
+
+---
 
 ## Project setup
 ```
@@ -24,6 +33,3 @@ npm run test:unit
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
