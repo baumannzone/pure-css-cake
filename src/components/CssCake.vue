@@ -41,6 +41,9 @@ chocolate-color = #6b46c1
 
 candle-color = #9e9e9e
 
+fire-color = yellow
+inner-fire-color = orange
+
 h1
   text-align center
   margin-bottom 100px
@@ -54,6 +57,12 @@ p
 
 .birthday-cake
   margin-top 50px
+  transform scale(.7)
+
+  @media (min-width: 465px) {
+    transform scale(1)
+  }
+
   .candle
     position relative
     width 20px
@@ -69,11 +78,12 @@ p
       width 4px
       height 12px
       background-color #555
+      opacity .8
 
     .fire
       position absolute
       opacity .7
-      background yellow
+      background fire-color
       width 40px
       height 40px
       margin-top -45px
@@ -82,11 +92,12 @@ p
       border-top-right-radius 30px
       border-bottom-left-radius 30px
       border-bottom-right-radius 30px
+      animation: flaming 3s ease-in-out infinite;
 
     .inner-fire
       position relative
       opacity .5
-      background orange
+      background inner-fire-color
       width 20px
       height 20px
       top 14px
@@ -94,6 +105,7 @@ p
       border-top-right-radius 30px
       border-bottom-left-radius 30px
       border-bottom-right-radius 30px
+      animation: flaming-inner 2s ease-out infinite;
 
   .extra
     margin 0 auto
@@ -193,4 +205,16 @@ p
       border-top-left-radius 10px
       border-top-right-radius 10px
       background-color base-color
+
+  @keyframes flaming {
+    50% {
+        transform: scaleY(.9) rotate(45deg) translate(3px, 3px)
+    }
+  }
+
+  @keyframes flaming-inner {
+    50% {
+      transform: scale(1.1) translate(-1px, -1px)
+    }
+  }
 </style>
