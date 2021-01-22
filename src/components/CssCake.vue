@@ -92,7 +92,7 @@ p
       border-top-right-radius 30px
       border-bottom-left-radius 30px
       border-bottom-right-radius 30px
-      animation: flaming 3s ease-in-out infinite;
+      animation flaming 3s ease-in-out infinite;
 
     .inner-fire
       position relative
@@ -105,7 +105,7 @@ p
       border-top-right-radius 30px
       border-bottom-left-radius 30px
       border-bottom-right-radius 30px
-      animation: flaming-inner 2s ease-out infinite;
+      animation flaming-inner 2s ease-out infinite;
 
   .extra
     margin 0 auto
